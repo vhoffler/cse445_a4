@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<NationalParks xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/vhoffler/cse445_a4/main/NationalParks.xsd">
+    <!-- Grand Canyon -->
+    <NationalPark Rating="4.9" NearestAirport="Flagstaff">
+    
+        <!-- Name -->
+        <Name>Grand Canyon</Name>
+
+        <!-- Phone -->
+        <Phone>928-638-7496</Phone>
+        <Phone>888-297-2757</Phone>
+
+        <!-- Address -->
+        <Address>
+            <Number>8</Number>
+            <Street>S Entrance Road</Street>
+            <City>Grand Canyon</City>
+            <State>AZ</State>
+            <Zip>86023</Zip>
+        </Address>
+
+    </NationalPark>
+</NationalParks>
