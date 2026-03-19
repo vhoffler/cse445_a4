@@ -14,24 +14,24 @@
                         <!-- Left to Right -->
                         <xs:sequence>
                         
-                        <!-- Name -->
-                        <xs:element name="Name" type="xs:string"/>
-                        
-                        <!-- Phone (multiple) -->
-                        <xs:element name="Phone" type="xs:string" maxOccurs="unbounded"/>
-                        
-                        <!-- Address -->
-                        <xs:element name="Address">
-                            <xs:complexType>
-                                <xs:sequence>
-                                    <xs:element name="Number" type="xs:int"/>
-                                    <xs:element name="Street" type="xs:string"/>
-                                    <xs:element name="City" type="xs:string"/>
-                                    <xs:element name="State" type="xs:string"/>
-                                    <xs:element name="Zip" type="xs:string"/>
-                                </xs:sequence>
-                            </xs:complexType>
-                        </xs:element>
+                            <!-- Name -->
+                            <xs:element name="Name" type="xs:string"/>
+                            
+                            <!-- Phone (multiple) -->
+                            <xs:element name="Phone" type="xs:string" maxOccurs="unbounded"/>
+                            
+                            <!-- Address -->
+                            <xs:element name="Address">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="Number" type="xs:int"/>
+                                        <xs:element name="Street" type="xs:string"/>
+                                        <xs:element name="City" type="xs:string"/>
+                                        <xs:element name="State" type="xs:string"/>
+                                        <xs:element name="Zip" type="xs:string"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
 
                         </xs:sequence>
 
