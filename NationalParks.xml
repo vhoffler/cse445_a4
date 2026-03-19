@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <NationalParks xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/vhoffler/cse445_a4/main/NationalParks.xsd">
-    <!-- Grand Canyon -->
+    <!-- 0. Grand Canyon -->
     <NationalPark Rating="4.9" NearestAirport="Flagstaff">
     
         <!-- Name -->
@@ -18,6 +18,223 @@
             <City>Grand Canyon</City>
             <State>AZ</State>
             <Zip>86023</Zip>
+        </Address>
+
+    </NationalPark>
+
+    <!-- 1. Glacier -->
+    <NationalPark Rating="4.8" NearestAirport="Kalispell">
+    
+        <!-- Name -->
+        <Name>Glacier</Name>
+
+        <!-- Phone -->
+        <Phone>406-888-7800</Phone>
+        <Phone>844-868-7474</Phone>
+
+        <!-- Address -->
+        <Address>
+            <Number>64</Number>
+            <Street>Alpine Triangle</Street>
+            <City>West Glacier</City>
+            <State>MT</State>
+            <Zip>59901</Zip>
+        </Address>
+
+    </NationalPark>
+
+    <!-- 2. Yellowstone -->
+    <NationalPark Rating="4.8" NearestAirport="Bozeman">
+    
+        <!-- Name -->
+        <Name>Yellowstone</Name>
+
+        <!-- Phone -->
+        <Phone>307-344-7381</Phone>
+        <Phone>307-344-2117</Phone>
+        <Phone>307-344-2751</Phone>
+        <Phone>307-344-7311</Phone>
+
+        <!-- Address -->
+        <Address>
+            <Number>114</Number>
+            <Street>Albright Ave</Street>
+            <City>Yellowstone National Park</City>
+            <State>WY</State>
+            <Zip>82190</Zip>
+        </Address>
+
+    </NationalPark>
+
+    <!-- 3. Yosemite -->
+    <NationalPark Rating="4.8" NearestAirport="Fresno">
+    
+        <!-- Name -->
+        <Name>Yosemite</Name>
+
+        <!-- Phone -->
+        <Phone>209-372-0200</Phone>
+        <Phone>209-372-0826</Phone>
+        <Phone>209-375-9535</Phone>
+
+        <!-- Address -->
+        <Address>
+            <Number>9030</Number>
+            <Street>Village Dr</Street>
+            <City>Yosemite National Park</City>
+            <State>CA</State>
+            <Zip>95389</Zip>
+        </Address>
+
+    </NationalPark>
+
+    <!-- 4. Grand Teton -->
+    <NationalPark Rating="4.9" NearestAirport="Jackson Hole">
+    
+        <!-- Name -->
+        <Name>Grand Teton</Name>
+
+        <!-- Phone -->
+        <Phone>307-739-3399</Phone>
+        <Phone>307-739-3309</Phone>
+        <Phone>307-739-3594</Phone>
+
+        <!-- Address -->
+        <Address>
+            <Number>103</Number>
+            <Street>Headquarters Loop</Street>
+            <City>Moose</City>
+            <State>WY</State>
+            <Zip>83012</Zip>
+        </Address>
+
+    </NationalPark>
+
+    <!-- 5. Zion -->
+    <NationalPark Rating="4.8" NearestAirport="St. George Regional">
+    
+        <!-- Name -->
+        <Name>Zion</Name>
+
+        <!-- Phone -->
+        <Phone>435-772-3256</Phone>
+        <Phone>888-297-2757</Phone>
+        <Phone>877-444-6777</Phone>
+
+        <!-- Address -->
+        <Address>
+            <Number>1</Number>
+            <Street>Zion Park Blvd</Street>
+            <City>Springdale</City>
+            <State>UT</State>
+            <Zip>84767</Zip>
+        </Address>
+
+    </NationalPark>
+
+    <!-- 6. Kenai Fjords -->
+    <NationalPark Rating="4.9" NearestAirport="Seldovia">
+    
+        <!-- Name -->
+        <Name>Kenai Fjords</Name>
+
+        <!-- Phone -->
+        <Phone>907-318-2040</Phone>
+        <Phone>907-422-0500</Phone>
+
+        <!-- Address -->
+        <Address>
+            <Number>413</Number>
+            <Street>4th Ave</Street>
+            <City>Seward</City>
+            <State>AK</State>
+            <Zip>99664</Zip>
+        </Address>
+
+    </NationalPark>
+
+    <!-- 7. Bryce Canyon -->
+    <NationalPark Rating="4.9" NearestAirport="Bryce Canyon Airport">
+    
+        <!-- Name -->
+        <Name>Bryce Canyon</Name>
+
+        <!-- Phone -->
+        <Phone>435-834-5322</Phone>
+
+        <!-- Address -->
+        <Address>
+            <Number>0</Number> <!-- no street number -->
+            <Street>Highway 63</Street>
+            <City>Bryce</City>
+            <State>UT</State> 
+            <Zip>84764</Zip>
+        </Address>
+
+    </NationalPark>
+
+    <!-- 8. Arches -->
+    <NationalPark Rating="4.8" NearestAirport="Canyonlands Field">
+    
+        <!-- Name -->
+        <Name>Arches</Name>
+
+        <!-- Phone -->
+        <Phone>435-719-2299</Phone>
+        <Phone>435-719-2100</Phone>
+
+        <!-- Address -->
+        <Address>
+            <Number>331</Number>
+            <Street>S Main St</Street>
+            <City>Moab</City>
+            <State>UT</State>
+            <Zip>84532</Zip>
+        </Address>
+
+    </NationalPark>
+
+    <!-- 9. Olympic -->
+    <NationalPark Rating="4.8" NearestAirport="Seattle-Tacoma International">
+    
+        <!-- Name -->
+        <Name>Olympic</Name>
+
+        <!-- Phone -->
+        <Phone>360-565-3130</Phone>
+        <Phone>360-565-3131</Phone>
+        <Phone>360-565-3000</Phone>
+        <Phone>360-288-2444</Phone>
+        <Phone>360-962-2283</Phone>
+
+        <!-- Address -->
+        <Address>
+            <Number>3002</Number>
+            <Street>Mount Angeles Road</Street>
+            <City>Port Angeles</City>
+            <State>WA</State>
+            <Zip>98362</Zip>
+        </Address>
+
+    </NationalPark>
+
+    <!-- 10. Sequoia -->
+    <NationalPark Rating="4.8" NearestAirport="Fresno">
+    
+        <!-- Name -->
+        <Name>Sequoia</Name>
+
+        <!-- Phone -->
+        <Phone>559-565-3341</Phone>
+        <Phone>866-807-3598</Phone>
+
+        <!-- Address -->
+        <Address>
+            <Number>47050</Number>
+            <Street>Generals Highway</Street>
+            <City>Three Rivers</City>
+            <State>CA</State>
+            <Zip>93271-9700</Zip>
         </Address>
 
     </NationalPark>
