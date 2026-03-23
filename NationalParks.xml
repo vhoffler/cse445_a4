@@ -154,22 +154,25 @@
 
     </NationalPark>
 
-    <!-- 7. Bryce Canyon -->
-    <NationalPark Rating="4.9" NearestAirport="Bryce Canyon Airport">
+    <!-- 7. Great Smoky Mountains -->
+    <NationalPark Rating="4.9" NearestAirport="McGhee Tyson">
     
         <!-- Name -->
-        <Name>Bryce Canyon</Name>
+        <Name>Great Smoky Mountains</Name>
 
         <!-- Phone -->
-        <Phone>435-834-5322</Phone>
+        <Phone>865-436-1200</Phone>
+        <Phone>865-436-9171</Phone>
+        <Phone>865-436-1297</Phone>
+        <Phone>865-429-5704</Phone>
 
         <!-- Address -->
         <Address>
-            <Number>0</Number>
-            <Street>Highway 63</Street>
-            <City>Bryce</City>
-            <State>UT</State> 
-            <Zip>84764</Zip>
+            <Number>107</Number>
+            <Street>Park Headquarters Road</Street>
+            <City>Gatlinburg</City>
+            <State>TN</State> 
+            <Zip>37738</Zip>
         </Address>
 
     </NationalPark>
