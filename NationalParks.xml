@@ -3,7 +3,6 @@
 <NationalParks xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/vhoffler/cse445_a4/main/NationalParks.xsd">
     <NationalPark Rating="4.9" NearestAirport="Flagstaff">
     
-        <!-- Name -->
         <Name>Grand Canyon</Name>
 
         <!-- Phone -->
