@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <NationalParks xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/vhoffler/cse445_a4/main/NationalParks.xsd">
-    <!-- 0. Grand Canyon -->
     <NationalPark Rating="4.9" NearestAirport="Flagstaff">
     
         <!-- Name -->
@@ -165,7 +164,7 @@
 
         <!-- Address -->
         <Address>
-            <Number>0</Number> <!-- no street number -->
+            <Number>0</Number>
             <Street>Highway 63</Street>
             <City>Bryce</City>
             <State>UT</State> 
