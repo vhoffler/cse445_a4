@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<NationalPark xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/vhoffler/cse445_a4/main/NationalParks.xsd">
+<NationalPark xmlns="http://vhoffler.github.io/cse445_a4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://vhoffler.github.io/cse445_a4 https://raw.githubusercontent.com/vhoffler/cse445_a4/main/NationalParks.xsd">
+
     <!-- 0. Grand Canyon -->
     <NationalPark Rating="4.9">
     
@@ -166,7 +167,7 @@
             <Number>107</Number>
             <Street>Park Headquarters Road</Street>
             <City>Gatlinburg</City>
-            <State>TN</State> 
+            <State>TN</State>
             <Zip>37738</Zip>
         </Address>
 
@@ -237,4 +238,5 @@
         </Address>
 
     </NationalPark>
+
 </NationalPark>

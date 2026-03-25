@@ -1,12 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+            xmlns="http://vhoffler.github.io/cse445_a4"
+            targetNamespace="http://vhoffler.github.io/cse445_a4"
+            elementFormDefault="qualified"
+            attributeFormDefault="unqualified">
+
     <xsd:annotation>
         <xsd:documentation xml:lang="en">
             National Parks directory schema for CSE 445 Assignment 4
         </xsd:documentation>
     </xsd:annotation>
-    <!-- Root Element -->
+
     <xsd:element name="NationalParks" type="NationalParksType"/>
 
     <xsd:complexType name="NationalParksType">
@@ -14,7 +19,7 @@
             <xsd:element name="NationalPark" type="NationalParkType" minOccurs="1" maxOccurs="unbounded"/>
         </xsd:sequence>
     </xsd:complexType>
-    <!-- Primary Elements -->
+
     <xsd:complexType name="NationalParkType">
         <xsd:sequence>
             <xsd:element name="Name" type="xsd:string" minOccurs="1" maxOccurs="1"/>
@@ -24,7 +29,7 @@
         <xsd:attribute name="Rating" type="xsd:decimal" use="optional"/>
         <xsd:attribute name="NearestAirport" type="xsd:string" use="required"/>
     </xsd:complexType>
-    <!-- Address Attributes -->
+
     <xsd:complexType name="AddressType">
         <xsd:sequence>
             <xsd:element name="Number" type="xsd:nonNegativeInteger" minOccurs="1" maxOccurs="1"/>
@@ -34,22 +39,23 @@
             <xsd:element name="Zip" type="ZipType" minOccurs="1" maxOccurs="1"/>
         </xsd:sequence>
     </xsd:complexType>
-    <!-- Phone Number Format -->
+
     <xsd:simpleType name="PhoneType">
         <xsd:restriction base="xsd:string">
             <xsd:pattern value="\d{3}-\d{3}-\d{4}"/>
         </xsd:restriction>
     </xsd:simpleType>
-    <!-- State Abbreviation Format -->
+
     <xsd:simpleType name="StateType">
         <xsd:restriction base="xsd:string">
             <xsd:length value="2"/>
         </xsd:restriction>
     </xsd:simpleType>
-    <!-- Zip Code Format -->
+
     <xsd:simpleType name="ZipType">
         <xsd:restriction base="xsd:string">
             <xsd:pattern value="\d{5}(-\d{4})?"/>
         </xsd:restriction>
     </xsd:simpleType>
+
 </xsd:schema>
