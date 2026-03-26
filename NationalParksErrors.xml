@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<NationalParks xmlns="http://vhoffler.github.io/cse445_a4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://vhoffler.github.io/cse445_a4 https://raw.githubusercontent.com/vhoffler/cse445_a4/main/NationalParks.xsd">
+<NationalPark xmlns="http://vhoffler.github.io/cse445_a4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://vhoffler.github.io/cse445_a4 https://raw.githubusercontent.com/vhoffler/cse445_a4/main/NationalParks.xsd">
 
     <!-- 0. Grand Canyon -->
     <NationalPark Rating="4.9">
@@ -16,7 +16,6 @@
             <City>Grand Canyon</City>
             <State>AZ</State>
             <Zip>86023</Zip>
-        </Address>
 
     </NationalPark>
 
@@ -240,4 +239,4 @@
 
     </NationalPark>
 
-</NationalParks>
+</NationalPark>
