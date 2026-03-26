@@ -1,15 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
-            xmlns="http://vhoffler.github.io/cse445_a4"
-            targetNamespace="http://vhoffler.github.io/cse445_a4"
-            elementFormDefault="qualified"
-            attributeFormDefault="unqualified">
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://vhoffler.github.io/cse445_a4" targetNamespace="http://vhoffler.github.io/cse445_a4" elementFormDefault="qualified" attributeFormDefault="unqualified">
 
     <xsd:annotation>
-        <xsd:documentation xml:lang="en">
-            National Parks directory schema for CSE 445 Assignment 4
-        </xsd:documentation>
+        <xsd:documentation xml:lang="en"> CSE 445 Assignment 4 Nation Parks xsd </xsd:documentation>
     </xsd:annotation>
 
     <xsd:element name="NationalParks" type="NationalParksType"/>
